@@ -18,6 +18,11 @@ header{
 }
 
 .header_logo{
-    width: 100px;
+    width: 40px;
     height: auto;
+}
+
+.logo_support{
+    margin-left: 5px;
+    font-size: 22px;
 }
