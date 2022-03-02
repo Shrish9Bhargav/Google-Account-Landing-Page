@@ -4,7 +4,7 @@ body{
 }
 
 .container{
-    width: 1350px;
+    width: 1350x;
     margin: auto;
 }
 
@@ -13,16 +13,165 @@ body{
     flex-wrap: wrap;
 }
 
+
+
 header{
     padding: 10px 0px;
+    box-shadow: 0px 15px 10px rgb(177, 173, 173);
 }
 
 .header_logo{
-    width: 40px;
+    width: 100px;
     height: auto;
 }
 
 .logo_support{
-    margin-left: 5px;
+    margin-left: 10px;
+    margin-top: 1px;
     font-size: 22px;
+    color: rgb(78, 78, 78);
 }
+
+.header_nav{
+    width: 250px;
+    margin-left: 50px;
+    margin-top: 5px;
+
+}
+
+.header_nav a{
+    text-decoration: none;
+    color: rgb(82, 82, 82);
+    margin: 0px 15px;
+}
+
+.header_nav a:hover{
+    color: black;
+}
+
+.header_btn{
+    margin-left: 400px;
+    width: 450px;
+}
+
+.header_btn a{
+    margin: 10px 15px;
+    text-decoration: none;
+     font-size: 18px;
+     padding: 10px 15px;
+     border-radius: 5px;
+}
+
+.header_btn_one{
+    color: dodgerblue;
+}
+
+.header_btn_one:hover{
+    color: rgb(22, 100, 177);
+    background-color: rgb(233, 233, 233);
+}
+
+.header_btn_two{
+    background-color: dodgerblue;
+    color: white;
+}
+
+.header_btn_two:hover{
+    background-color: rgb(11, 85, 160);
+}
+
+/*start of title */
+
+.title_one{
+    width: 40%;
+    padding: 25px;
+}
+
+.title_one h1{
+    font-size: 75px;
+}
+
+.title_two{
+    width: 50%;
+    margin: auto;
+
+}
+
+.title_two video{
+    width: 80%;
+    margin: 10%;
+}
+
+/*support section */
+
+.support{
+    background-color: rgb(243, 243, 243);
+    margin-top: 75px;
+    border-top: 1px solid rgb(216, 214, 214);
+    border-bottom: 1px solid rgb(216, 214, 214);
+}
+
+.support_box{
+    width: 28%;
+    padding: 30px;
+    margin: 0px auto;
+}
+
+.support_box h3{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.support_box h3{
+    font-weight: 200;
+}
+
+.underline_1{
+    width: 30px;
+    height: 5px;
+    background-color:dodgerblue ;
+    border-radius: 10px;
+}
+
+.underline_2{
+    width: 30px;
+    height: 5px;
+    background-color:rgb(230, 230, 42);
+    border-radius: 10px;
+}
+
+.underline_3{
+    width: 30px;
+    height: 5px;
+    background-color:rgb(6, 175, 6);
+    border-radius: 10px;
+}
+
+.support_box_border{
+    border-left: 1px solid rgb(192, 189, 189);
+    border-right: 1px solid rgb(192, 189, 189);
+}
+
+.features{
+    margin-top: 50px;
+}
+
+.features_img{
+    width: 20%;
+    margin: 0px auto;
+}
+
+.features_img img{
+    width: 100%;
+}
+
+.features_content{
+    width: 60%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.features_content h2{
+    font-size: 50px;
+}
+
