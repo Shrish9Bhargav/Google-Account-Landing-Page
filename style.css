@@ -122,7 +122,7 @@ header{
     font-weight: 400;
 }
 
-.support_box h3{
+.support_box p{
     font-weight: 200;
 }
 
@@ -175,3 +175,45 @@ header{
     font-size: 50px;
 }
 
+.features_content p{
+    color:rgb(104, 104, 104);
+    font-size: 18px;
+}
+
+.features_buttons{
+    margin-top: 100px;
+
+}
+
+.features_button{
+    width: 30%;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 3px solid rgb(179, 174, 174);
+}
+
+.features_button a{
+    text-decoration: none;
+    color: #000;
+}
+
+.features_button:hover{
+    border-bottom: 3px solid dodgerblue;
+}
+
+.features_text{
+    margin-top: 150px;
+    width: 30%;
+    padding: 50px;
+    color: rgb(167, 167, 167);
+}
+
+.features_video{
+    margin-top: 100px;
+    width: 60%;
+}
+
+.features_video video{
+    width: 80%;
+    margin: 0px 10%;
+}
