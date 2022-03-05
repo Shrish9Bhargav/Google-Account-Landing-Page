@@ -217,3 +217,86 @@ header{
     width: 80%;
     margin: 0px 10%;
 }
+
+.account{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.account_content{
+    width: 35%;
+    margin: auto;
+}
+
+.account_content h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+.account_content a{
+    display: block;
+    text-decoration: none;
+    color: dodgerblue;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px 25px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.account_content .login{
+    background-color: dodgerblue;
+    color: white;
+    width:50%;
+    margin: auto;
+    border-radius: 10px;
+
+}
+
+.login:hover{
+    background-color: rgb(17, 117, 218);
+}
+
+ .login_me:hover{
+     color: rgb(21, 106, 190);
+ }
+
+ .footer{
+     padding: 30px 0px;
+     background-color: rgb(222, 225, 226);
+ }
+
+.footer h3{
+    font-size: 28px;
+    color: rgb(138, 136, 136);
+}
+
+.footer_nav{
+    padding: 35px 10px ;
+    margin-left: 30px;
+}
+
+.footer_nav a{
+
+    text-decoration: none;
+    color: rgb(83, 82, 82);
+    font-size: 18px;
+    margin: 5px 15px;
+}
+
+.footer_nav a:hover{
+    color: #000;
+}
+
+.footer_help{
+    width: 25%;
+    padding: 35px 10px;
+    margin-left: 400px;
+    font-size: 18px;
+    color: rgb(134, 134, 134);
+}
+
+
+.footer_help small{
+    margin-right: 20px;
+}
